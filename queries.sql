@@ -9,7 +9,7 @@ select phone from suppliers
 where supplierid='11';
 
 -- List first 10 orders placed, sorted descending by the order date
-select * from orders order by orderdate desc, limit 10;
+select * from orders order by orderdate desc limit 10;
 
 -- Find all customers that live in London, Madrid, or Brazil
 select * from customers
